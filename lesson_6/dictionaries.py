@@ -15,7 +15,6 @@ phone = {
     "private": "22848691961",
     "work": "1481928919",
     "notes": {
-        "pon": "pon",
         "birthday": "01/01/2011",
         "special": {
             "name": "aaaaaaaaa",
@@ -31,4 +30,3 @@ print(phone["email"][1])
 #вывести никнейм:
 print(phone["notes"]["special"]["nickname"])
 
-print(phone["phones"][])
