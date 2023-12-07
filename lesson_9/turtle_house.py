@@ -9,7 +9,7 @@ house.pensize(7)
 house.begin_fill()
 
 # Drawing the outline of the house
-for i in range(4):
+for wall in range(4):
     house.fd(299)
     house.rt(90)
 house.end_fill()
@@ -17,13 +17,12 @@ house.lt(60)
 house.begin_fill()
 
 # Drawing the roof
-for i in range(3):
+for roof_frame in range(3):
     house.fd(299)
     house.rt(120)
 house.end_fill()
 house.pensize(4)
 house.up()
-print(house.pos())
 house.goto(50, -50)
 house.rt(60)
 house.pensize(3)
@@ -32,7 +31,7 @@ house.color('#000000')
 house.begin_fill()
 
 # Drawing the window
-for i in range(4):
+for window_frame in range(4):
     house.fd(80)
     house.rt(90)
 house.color('#5686ba')
