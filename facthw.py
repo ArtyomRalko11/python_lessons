@@ -15,4 +15,3 @@ print(res * n2)
 
 
 
-c

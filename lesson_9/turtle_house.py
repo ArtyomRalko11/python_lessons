@@ -23,7 +23,7 @@ for roof_frame in range(3):
 house.end_fill()
 house.pensize(4)
 house.up()
-house.goto(50, -50)
+house.goto(50, -90)
 house.rt(60)
 house.pensize(3)
 house.down()
